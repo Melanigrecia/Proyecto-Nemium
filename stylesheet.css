@@ -1,4 +1,50 @@
+:root{
+    --azul20: #232946;
+    --azul10: #B8C1EC; 
+}
+
 body{
     font-family: "Montserrat", sans-serif;
-    font-style: normal;
+    background-color: var(--azul20);
+}
+
+.menu a{
+    text-decoration: none;
+    color: var(--azul10);
+}
+
+.menu a:hover{
+    color:#FFFFFE;
+}
+
+summary{
+    color: #FFFFFE;
+    ;
+}
+
+p{
+    color: var(--azul10);
+    font-size: 17px;
+}
+
+h1{
+    color: #FFFFFE;
+    font-size: 64px;
+}
+
+h2{
+    color: #FFFFFE;
+    font-size: 40px;
+}
+
+h3{
+    color: #FFFFFE;
+    font-size: 32px;
+}
+
+pre{
+    font-family: "Montserrat", sans-serif;
+    color: var(--azul20);
+    background-color: #D4939D;
+    ;
 }
