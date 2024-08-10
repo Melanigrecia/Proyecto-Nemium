@@ -10,9 +10,15 @@ html{
 body{
     font-family: "Montserrat", sans-serif;
     background-color: var(--azul20);
+    margin: auto;
+}
+
+.wrapper{
     max-inline-size: 820px;
     margin: auto;
 }
+   
+
 
 .menu a{
     text-decoration: none;
@@ -22,6 +28,7 @@ body{
 
 .menu li{
     color: var(--azul10);
+    
 }
 
 ol li{
@@ -39,10 +46,12 @@ ul li{
 summary{
     color: #FFFFFE;
     font-weight: bold;
+    line-height: 24px;
 }
 
 .contenedor{
-    max-width: 230px;
+    inline-size: 230px;
+    margin-block-start: 7px;
 }
 
 details li{
@@ -84,6 +93,7 @@ hr{
     top: 0;
     background-color: var(--azul20);
     border: 1px solid var(--azul20);
+
 }
 
 .content1 h3{
@@ -130,6 +140,11 @@ h3{
 
 .content h2{
     margin-block-start: 30px;
+}
+
+.content img{
+    display: block;
+  max-inline-size: 100%;
 }
 
 
@@ -210,6 +225,104 @@ blockquote span{
     margin-block-start: 16px;
     margin-block-end: 16px;
 }
+
+.slider-container{
+    /* border: 10px solid green; */
+    font-size: 0;
+    white-space: nowrap;
+    overflow: auto;
+    scroll-behavior: smooth;
+    display: block
+    
+}
+
+.video{
+    /* border: 1px solid yellow; */
+    margin: 0;
+    /* border: 1px solid yellow; */
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+.slider-bullet-list{
+    text-align: center;
+    margin-block-start: 16px;
+    margin-block-end: 40px;
+}
+
+.slider-bullet{
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    inline-size: 16px;
+    block-size: 16px;
+}
+
+#bullet{
+    margin-inline-start: 8px;
+    margin-inline-end: 8px;
+}
+
+.escríbeme{
+    color: #FFFFFE;
+}
+
+span a{
+    color: #EEBBC3;
+}
+
+.content-form{
+    margin-block-start: 16px;
+}
+
+.form input{
+    background-color: var(--azul20);
+    padding-inline: 16px;
+    padding-block: 12px;
+    inline-size: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #FFFFFE;
+    color: #FFFFFE;
+    font-size: 16px;
+    display: block;
+    margin-block: 24px;
+}
+
+.form ::-webkit-input-placeholder{
+    color: #FFFFFE;
+    font-family: "Montserrat", sans-serif;
+}
+
+.content-footer{
+    height: 125px;
+    background-color: #EEBBC3;
+    margin-block-start: 80px;
+}
+
+
+.footer p{
+    color: #232946;
+    font-weight: 400px;
+    font-size: 32px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer span{
+    margin-inline: 16px;
+}
+
+.logos{
+    /* border: 2px solid red; */
+    margin-block-start: 16px;
+}
+
+
 
 
 
