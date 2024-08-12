@@ -296,6 +296,15 @@ span a{
     font-family: "Montserrat", sans-serif;
 }
 
+.form input[type="submit"]{
+    color: #232946;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    background-color: #EEBBC3;
+    
+}
+
 .content-footer{
     height: 125px;
     background-color: #EEBBC3;
@@ -311,6 +320,7 @@ span a{
 
 .footer{
     text-align: center;
+    margin-block-start: 48px;
 }
 
 .footer span{
